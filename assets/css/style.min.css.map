@@ -1,13 +1,19 @@
 {
     "version": 3,
-    "mappings": "AGAA,AAAA,CAAC,AAAC,CACE,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,UAAU,CAAE,UAAU,CACzB,AAED,AAAA,IAAI,AAAC,CACD,SAAS,CAAE,IAAI,CAClB",
+    "mappings": "AEAA,OAAO,CAAC,uGAAI,CACZ,OAAO,CAAC,8KAAI,CIDZ,AAAA,CAAC,AAAC,CACE,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,UAAU,CAAE,UAAU,CACzB,AAED,AAAA,IAAI,AAAC,CACD,SAAS,CAAE,IAAI,CACf,KAAK,CHDI,OAAO,CGEnB,AAED,AAAA,CAAC,AAAC,CACE,eAAe,CAAE,IAAI,CACxB,AAED,AAAA,EAAE,AAAC,CACC,UAAU,CAAE,IAAI,CACnB,AAED,AAAA,GAAG,AAAC,CACA,SAAS,CAAE,IAAI,CAClB,ACrBD,AAAA,EAAE,CAAE,EAAE,CAAE,EAAE,CAAE,EAAE,CAAE,EAAE,CAAE,EAAE,AAAC,CACnB,WAAW,CJCA,SAAS,CAAE,UAAU,CIAnC,AAED,AAAA,EAAE,AAAC,CACC,SAAS,CAAE,OAAO,CAClB,WAAW,CAAE,GAAG,CAMnB,AARD,AAII,EAJF,CAIE,QAAQ,AAAC,CACL,SAAS,CAAE,QAAQ,CACnB,WAAW,CAAE,GAAG,CACnB,AAGL,AAAA,EAAE,AAAC,CACC,SAAS,CAAE,QAAQ,CACnB,WAAW,CAAE,GAAG,CACnB,AAED,AAAA,EAAE,AAAC,CACC,SAAS,CAAE,QAAQ,CACnB,WAAW,CAAE,GAAG,CACnB,AAED,AAAA,EAAE,AAAC,CACC,SAAS,CAAE,QAAQ,CACnB,WAAW,CAAE,GAAG,CACnB,AAED,AAAA,EAAE,AAAC,CACC,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,GAAG,CACnB,AAED,AAAA,EAAE,AAAC,CACC,SAAS,CAAE,QAAQ,CACnB,WAAW,CAAE,GAAG,CACnB,AGrCD,AAAA,MAAM,AAAC,CACH,gBAAgB,CPIJ,OAAO,COHtB,ACFD,AAAA,MAAM,AAAC,CACH,gBAAgB,CRIJ,OAAO,CQHtB",
     "sources": [
         "../sass/style.scss",
         "../sass/abstracts/__abstracts-dir.scss",
+        "../sass/abstracts/_fonts.scss",
+        "../sass/abstracts/_variable.scss",
+        "../sass/abstracts/_mixins.scss",
         "../sass/base/__base-dir.scss",
         "../sass/base/_reset.scss",
+        "../sass/base/_typography.scss",
         "../sass/components/__components-dir.scss",
-        "../sass/layouts/__layouts-dir.scss"
+        "../sass/layouts/__layouts-dir.scss",
+        "../sass/layouts/_header.scss",
+        "../sass/layouts/_footer.scss"
     ],
     "names": [],
     "file": "style.min.css"

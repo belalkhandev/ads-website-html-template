@@ -6,4 +6,17 @@
 
 body {
     font-size: 1rem;
+    color: $color_text;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
 }
