@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "AGAA,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACzB;;AAED,AAAA,IAAI,CAAC;EACD,SAAS,EAAE,IAAI;CAClB",
+    "sources": [
+        "../sass/style.scss",
+        "../sass/abstracts/__abstracts-dir.scss",
+        "../sass/base/__base-dir.scss",
+        "../sass/base/_reset.scss",
+        "../sass/components/__components-dir.scss",
+        "../sass/layouts/__layouts-dir.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
