@@ -16,8 +16,10 @@ a {
   text-decoration: none;
 }
 
-ul {
+ul, ol {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 img {
@@ -33,7 +35,7 @@ h1 {
   font-weight: 600;
 }
 
-h1 .special {
+h1.special {
   font-size: 4.063rem;
   font-weight: 800;
 }
@@ -65,6 +67,94 @@ h6 {
 
 header {
   background-color: #22B573;
+  padding: 10px 0px;
+}
+
+header .logo {
+  padding: 10px 0px;
+}
+
+header .menus ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+header .menus ul li a {
+  color: #FFFFFF;
+  padding: 1.125rem 15px;
+  display: block;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+  font-weight: 1.125rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+header .menus ul li a:hover {
+  background-color: #FFFFFF;
+  color: #22B573;
+}
+
+header .header-bar-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-column-gap: 15px;
+          column-gap: 15px;
+  color: #FFFFFF;
+  padding: 5px 0px;
+}
+
+header .header-bar-list .lang {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 1.125rem;
+}
+
+header .header-bar-list .user ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+}
+
+header .header-bar-list .user ul li a {
+  color: #FFFFFF;
+  font-size: 1.125rem;
+}
+
+header .header-bar-list .btn {
+  color: #646060;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 10px;
 }
 
 footer {
