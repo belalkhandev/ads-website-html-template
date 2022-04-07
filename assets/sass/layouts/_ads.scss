@@ -1,0 +1,48 @@
+.amad-list {
+    .amad-item {
+        display: flex;
+        background-color: $color-white;
+        margin-bottom: 30px;
+
+        .amad-thumbnail {
+            width: 300px;
+        }
+
+        .amad-content {
+            width: calc(100% - 300px);
+            .amad-header {
+                padding: 10px 0px;
+
+                a {
+                    color: $color-text;
+                }
+                ul {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    column-gap: 20px;
+                }
+            }
+            .amad-body {
+                .features {
+                    padding-left: 15px;
+                    ul {
+                        color: $color-primary;
+                        display: grid;
+                        list-style-type: disc;
+                        grid-template-columns: repeat(2, 1fr);
+                        column-gap: 10px;
+                    }
+                }
+            }
+            .amad-footer {
+                border-top: 1px solid $color-text;
+                .amad-footer-items {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}
