@@ -1,5 +1,7 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: $font_heading;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -8,7 +10,7 @@ h1 {
 
     &.special {
         font-size: 4.063rem;
-        font-weight: 800;
+        font-weight: 600;
     }
 }
 

@@ -1,0 +1,43 @@
+.categories-area {
+    padding: 60px 0px;
+    .categories {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+
+        .category {
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+            border-right: 1px solid #ddd;
+            padding: 15px 0px;
+
+            a {
+                color: $color-text;
+                font-size: 1.125rem;
+                text-transform: uppercase;
+
+                img {
+                    margin-bottom: 5px;
+                }
+            }
+
+            &:hover {
+                background-color: $color-primary;
+                cursor: pointer;
+                text-transform: uppercase;
+
+                a {
+                    color: $color-white;
+                }
+
+            }
+
+            &:nth-child(-n+6)  {
+                border-top: 1px solid #ddd;
+            }
+
+            &:nth-child(6n+1)  {
+                border-left: 1px solid #ddd;
+            }
+        }
+    }
+}
