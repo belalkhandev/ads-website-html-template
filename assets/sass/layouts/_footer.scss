@@ -1,3 +1,33 @@
+.contact-area {
+    background-color: #F1F1F1;
+    padding: 45px 0px;
+    
+    .contact-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 50px;
+
+        h1 {
+            font-size: 2rem;
+            width: 50%;
+        }
+
+        .contact-btn {
+            width: calc(50% - 50px);
+            text-align: right;
+        }
+
+        .btn {
+            color: $color-white;
+            background-color: $color-orange;
+            border: none;
+            font-size: 26px;
+            font-weight: 600;
+        }
+    }
+}
+
 footer {
     background-color: $color_primary;
     

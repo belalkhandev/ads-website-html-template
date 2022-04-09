@@ -10,6 +10,7 @@
 body {
   font-size: 1rem;
   color: #52575C;
+  background-color: #F5F5F5;
 }
 
 p {
@@ -663,6 +664,43 @@ main {
   color: #FFFFFF;
   border: none;
   padding: 8px 30px;
+}
+
+.contact-area {
+  background-color: #F1F1F1;
+  padding: 45px 0px;
+}
+
+.contact-area .contact-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 50px;
+          column-gap: 50px;
+}
+
+.contact-area .contact-content h1 {
+  font-size: 2rem;
+  width: 50%;
+}
+
+.contact-area .contact-content .contact-btn {
+  width: calc(50% - 50px);
+  text-align: right;
+}
+
+.contact-area .contact-content .btn {
+  color: #FFFFFF;
+  background-color: #FCB321;
+  border: none;
+  font-size: 26px;
+  font-weight: 600;
 }
 
 footer {
