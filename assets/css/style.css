@@ -583,7 +583,125 @@ main {
   color: #25282B;
 }
 
+.newsletter-area {
+  padding: 40px 0px;
+}
+
+.newsletter {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 400px;
+}
+
+.newsletter::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #22B573;
+  z-index: -1;
+  opacity: 0.70;
+}
+
+.newsletter img {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translate(0px, -50%);
+          transform: translate(0px, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.newsletter .newsletter-content {
+  text-align: center;
+}
+
+.newsletter .newsletter-content h4 {
+  color: #FFFFFF;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.newsletter .newsletter-content h4:nth-child(2) {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.newsletter .newsletter-content .newsletter-form {
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.newsletter .newsletter-content .newsletter-form .form-control {
+  background: #FFFFFF;
+  border: 0px solid #FFFFFF;
+  font-weight: 300;
+  height: 40px;
+}
+
+.newsletter .newsletter-content .newsletter-form .btn {
+  color: #FFFFFF;
+  border: none;
+  padding: 8px 30px;
+}
+
 footer {
   background-color: #22B573;
+}
+
+footer .footer-top {
+  padding: 40px 0px;
+}
+
+footer .footer-top .footer-item .footer-item-title {
+  margin-bottom: 15px;
+}
+
+footer .footer-top .footer-item .footer-item-title h5 {
+  color: #FFFFFF;
+  font-size: 1.125rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+footer .footer-top .footer-item .footer-item-content ul li {
+  color: #FFFFFF;
+  font-weight: 300;
+}
+
+footer .footer-top .footer-item .footer-item-content ul li a {
+  font-size: 1rem;
+  display: block;
+  color: #FFFFFF;
+  padding: 5px 0px;
+}
+
+footer .footer-top .footer-item .footer-item-content ul li a:hover {
+  opacity: 0.95;
+  text-decoration: underline;
+}
+
+footer .footer-top .footer-item .footer-item-content ul.content-only li {
+  padding: 8px 0px;
 }
 /*# sourceMappingURL=style.css.map */
