@@ -3,9 +3,14 @@ $font_primary: 'Inter', sans-serif;
 $font_heading: 'Poppins', sans-serif;
 
 //colors
-$color_primary: #22B573;
-$color_secondary: #8CC63F;
-$color_text: #52575C;
-$color_yellow: #FBE122;
-$color_red: #E74F48;
-$color_white: #FFFFFF;
+$color-primary: #22B573;
+$color-secondary: #8CC63F;
+$color-text: #52575C;
+$color-dark: #25282B;
+$color-yellow: #FBE122;
+$color-red: #E74F48;
+$color-white: #FFFFFF;
+$color-gray: #616161;
+
+// shadow
+$shadow-primary: #22b57311;

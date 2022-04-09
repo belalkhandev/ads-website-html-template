@@ -3,6 +3,9 @@
         display: flex;
         background-color: $color-white;
         margin-bottom: 30px;
+        align-items: center;
+        padding: 10px 5px;
+        box-shadow:0px 2px 5px 0px $shadow-primary;
 
         .amad-thumbnail {
             width: 300px;
@@ -12,35 +15,166 @@
             width: calc(100% - 300px);
             .amad-header {
                 padding: 10px 0px;
+                position: relative;
 
                 a {
-                    color: $color-text;
+                    color: $color-dark;
+                    display: inline-block;
+                    position: relative;
+                    .condition {
+                        position: absolute;
+                        top: 0;
+                        left: 100%;
+                        background: $color-gray;
+                        color: white;
+                        font-weight: 400;
+                        font-size: 13px;
+                        padding: 1px 8px;
+                        border-radius: 25px;
+
+                        &.condition-warning {
+                            background-color: $color-red;
+                        }
+
+                        &.condition-info {
+                            background-color: $color-yellow;
+                        }
+                    }
                 }
+                
                 ul {
                     display: flex;
                     justify-content: flex-start;
                     align-items: center;
-                    column-gap: 20px;
+                    column-gap: 30px;
+
+                    li {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: $color-gray;
+                        column-gap: 5px;
+                        font-weight: 300;
+                        .icon {
+                            font-size: 24px;
+                        }
+                    }
+                }
+
+                .promotion-badge {
+                    position: absolute;
+                    top: 5px;
+                    right: 10px;
                 }
             }
             .amad-body {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-end;
+                padding-bottom: 15px;
+                padding-top: 10px;
+
                 .features {
+                    width: calc(100% - 30%);
                     padding-left: 15px;
                     ul {
-                        color: $color-primary;
                         display: grid;
                         list-style-type: disc;
                         grid-template-columns: repeat(2, 1fr);
                         column-gap: 10px;
+                        row-gap: 15px;
+                        font-size: 14px;
                     }
+                }
+
+                .pricing {
+                    width: 30%;
+                    color: $color-dark;
                 }
             }
             .amad-footer {
-                border-top: 1px solid $color-text;
+                margin-top: 15px;
+                border-top: 1px solid #A0A4A8;
+                padding-top: 10px;
+                
                 .amad-footer-items {
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
+
+                    .amad-store {
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+                        column-gap: 10px;
+                        .store-icon {
+                            width: 35px;
+                            height: 35px;
+                            background-color: $color-secondary;
+                            border-radius: 50%;
+                            overflow: hidden;
+
+                            img {
+                                width: 100%;
+                                height: auto;
+                            }
+                        }
+                        .store-title {
+                            line-height: 18px;
+                            p {
+                                color: $color-dark;
+                                font-size: 1rem;
+                            }
+
+                            small {
+                                font-size: 12px;
+                            }
+                        }
+                    }
+
+                    .amad-call {
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+                        column-gap: 10px;
+
+                        .call-icon {
+                            background-color: $color-secondary;
+                            color: $color-white;
+                            font-size: 20px;
+                            line-height: 0;
+                            padding: 7px;
+                            border-radius: 50%;
+                        }
+
+                        .call-content {
+                            line-height: 18px;
+                            p {
+                                color: $color-dark;
+                            }
+                        }
+                    }
+
+                    .amad-chat {
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+                        column-gap: 10px;
+
+                        .chat-icon {
+                            background-color: $color-secondary;
+                            color: $color-white;
+                            font-size: 20px;
+                            line-height: 0;
+                            padding: 7px;
+                            border-radius: 50%;
+                        }
+                        .chat-content {
+                            p {
+                                color: $color-dark;
+                            }
+                        }
+                    }
                 }
             }
         }

@@ -12,6 +12,11 @@ body {
   color: #52575C;
 }
 
+p {
+  margin: 0;
+  padding: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -339,6 +344,12 @@ main {
   display: flex;
   background-color: #FFFFFF;
   margin-bottom: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 5px;
+  -webkit-box-shadow: 0px 2px 5px 0px #22b57311;
+          box-shadow: 0px 2px 5px 0px #22b57311;
 }
 
 .amad-list .amad-item .amad-thumbnail {
@@ -351,10 +362,33 @@ main {
 
 .amad-list .amad-item .amad-content .amad-header {
   padding: 10px 0px;
+  position: relative;
 }
 
 .amad-list .amad-item .amad-content .amad-header a {
-  color: #52575C;
+  color: #25282B;
+  display: inline-block;
+  position: relative;
+}
+
+.amad-list .amad-item .amad-content .amad-header a .condition {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background: #616161;
+  color: white;
+  font-weight: 400;
+  font-size: 13px;
+  padding: 1px 8px;
+  border-radius: 25px;
+}
+
+.amad-list .amad-item .amad-content .amad-header a .condition.condition-warning {
+  background-color: #E74F48;
+}
+
+.amad-list .amad-item .amad-content .amad-header a .condition.condition-info {
+  background-color: #FBE122;
 }
 
 .amad-list .amad-item .amad-content .amad-header ul {
@@ -367,16 +401,56 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-column-gap: 20px;
-          column-gap: 20px;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+}
+
+.amad-list .amad-item .amad-content .amad-header ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #616161;
+  -webkit-column-gap: 5px;
+          column-gap: 5px;
+  font-weight: 300;
+}
+
+.amad-list .amad-item .amad-content .amad-header ul li .icon {
+  font-size: 24px;
+}
+
+.amad-list .amad-item .amad-content .amad-header .promotion-badge {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.amad-list .amad-item .amad-content .amad-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-bottom: 15px;
+  padding-top: 10px;
 }
 
 .amad-list .amad-item .amad-content .amad-body .features {
+  width: calc(100% - 30%);
   padding-left: 15px;
 }
 
 .amad-list .amad-item .amad-content .amad-body .features ul {
-  color: #22B573;
   display: -ms-grid;
   display: grid;
   list-style-type: disc;
@@ -384,10 +458,19 @@ main {
       grid-template-columns: repeat(2, 1fr);
   -webkit-column-gap: 10px;
           column-gap: 10px;
+  row-gap: 15px;
+  font-size: 14px;
+}
+
+.amad-list .amad-item .amad-content .amad-body .pricing {
+  width: 30%;
+  color: #25282B;
 }
 
 .amad-list .amad-item .amad-content .amad-footer {
-  border-top: 1px solid #52575C;
+  margin-top: 15px;
+  border-top: 1px solid #A0A4A8;
+  padding-top: 10px;
 }
 
 .amad-list .amad-item .amad-content .amad-footer .amad-footer-items {
@@ -400,6 +483,104 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.amad-list .amad-item .amad-content .amad-footer .amad-footer-items .amad-store {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+}
+
+.amad-list .amad-item .amad-content .amad-footer .amad-footer-items .amad-store .store-icon {
+  width: 35px;
+  height: 35px;
+  background-color: #8CC63F;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.amad-list .amad-item .amad-content .amad-footer .amad-footer-items .amad-store .store-icon img {
+  width: 100%;
+  height: auto;
+}
+
+.amad-list .amad-item .amad-content .amad-footer .amad-footer-items .amad-store .store-title {
+  line-height: 18px;
+}
+
+.amad-list .amad-item .amad-content .amad-footer .amad-footer-items .amad-store .store-title p {
+  color: #25282B;
+  font-size: 1rem;
+}
+
+.amad-list .amad-item .amad-content .amad-footer .amad-footer-items .amad-store .store-title small {
+  font-size: 12px;
+}
+
+.amad-list .amad-item .amad-content .amad-footer .amad-footer-items .amad-call {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+}
+
+.amad-list .amad-item .amad-content .amad-footer .amad-footer-items .amad-call .call-icon {
+  background-color: #8CC63F;
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 0;
+  padding: 7px;
+  border-radius: 50%;
+}
+
+.amad-list .amad-item .amad-content .amad-footer .amad-footer-items .amad-call .call-content {
+  line-height: 18px;
+}
+
+.amad-list .amad-item .amad-content .amad-footer .amad-footer-items .amad-call .call-content p {
+  color: #25282B;
+}
+
+.amad-list .amad-item .amad-content .amad-footer .amad-footer-items .amad-chat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+}
+
+.amad-list .amad-item .amad-content .amad-footer .amad-footer-items .amad-chat .chat-icon {
+  background-color: #8CC63F;
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 0;
+  padding: 7px;
+  border-radius: 50%;
+}
+
+.amad-list .amad-item .amad-content .amad-footer .amad-footer-items .amad-chat .chat-content p {
+  color: #25282B;
 }
 
 footer {
