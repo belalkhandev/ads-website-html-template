@@ -1,0 +1,102 @@
+.login{
+    margin-top: calc(158px - 83px) ;
+    width: 570px;
+    height: 819px;
+    background-color: $color-white;
+    box-shadow: 0px 4px 7px $shadow-primary;
+    border-radius: 3px;
+    padding: 68px;
+    .button{
+        display: flex;
+        justify-content: space-between;
+        font-size: 24px;
+        padding: 0px 15px;
+        
+        color: #A3A3A3;
+        .form-btn{
+            padding-bottom: 10px;
+            width: 50%;
+        }
+         .register-btn{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding-right: 15px;
+            border-bottom: 4px solid #A3A3A3;
+        }
+        .login-btn{
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding-left: 15px;
+            border-bottom: 4px solid #A3A3A3;
+
+        }
+        .login-btn:hover {
+            color: black;
+            border-bottom: 4px solid $color-primary;
+        }
+        
+        .register-btn:hover {
+            color: black;
+            border-bottom: 4px solid $color-primary;
+        }
+    }
+    form label{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    p{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        color: #616161;
+        text-align: center;
+        padding: 25px 0px;
+    }
+    .remember{
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 0px;
+        a{
+            font-size: 18px;
+            padding: 0px;
+            color: $color-primary;
+            font-weight: 600;
+        }
+    }
+    .submit-btn{
+        width: 400px;
+        height: 63px;
+        background: $color-primary;
+        border-radius: 3px;
+        border: none;
+        color: $color-white;
+        font-size: 24px;
+        font-weight: 700;
+        padding: 10px;
+    }
+    .social-txt{
+        font-size: 18px;
+        color: #CACCCF;
+    }
+    .social-txt::after{
+        content: "";
+        height: 1px;
+        width: 90px;
+        background-color: #CACCCF;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .social-txt::before{
+        content: "";
+        height:1px;
+        width: 90px;
+        background-color: #CACCCF;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
+
