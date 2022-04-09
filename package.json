@@ -23,6 +23,7 @@
     "bootstrap": "^5.1.3",
     "boxicons": "^2.1.2",
     "jquery": "^3.6.0",
+    "owl.carousel": "^2.3.4",
     "sass": "^1.49.11"
   }
 }
