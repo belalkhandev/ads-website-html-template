@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoMoto-Home page</title>
+    <!-- vendors css-->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/boxicons/css/boxicons.min.css">
+    <link rel="stylesheet" href="./node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+
+    <!-- main stylecss -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    
+    <!-- header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="logo">
+                        <a href="/">
+                            <img src="./assets/images/logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="menus">
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Inventory</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="header-bar-list">
+                        <div class="lang">
+                            <img src="./assets/images/lang-bn.png" alt="">
+                            <span>English</span>
+                        </div>
+                        <div class="user">
+                            <ul>
+                                <li>
+                                    <img src="./assets/images/user.png" alt="">
+                                </li>
+                                <li><a href="">Login</a></li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-light">Post your ad</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header> <!-- /header -->
+
+    <!-- main -->
+    <main>
+        <!-- model-carousel -->
+        <section class="model-carousel">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="models owl-carousel" id="model-carousel">
+                            <div class="model-item">
+                                <a href="">
+                                    <img src="./assets/images/model-1.png" alt="">
+                                </a>
+                            </div>
+                            <div class="model-item">
+                                <a href="">
+                                    <img src="./assets/images/model-2.png" alt="">
+                                </a>
+                            </div>
+                            <div class="model-item">
+                                <a href="">
+                                    <img src="./assets/images/model-3.png" alt="">
+                                </a>
+                            </div>
+                            <div class="model-item">
+                                <a href="">
+                                    <img src="./assets/images/model-4.png" alt="">
+                                </a>
+                            </div>
+                            <div class="model-item">
+                                <a href="">
+                                    <img src="./assets/images/model-1.png" alt="">
+                                </a>
+                            </div>
+                            <div class="model-item">
+                                <a href="">
+                                    <img src="./assets/images/model-2.png" alt="">
+                                </a>
+                            </div>
+                            <div class="model-item">
+                                <a href="">
+                                    <img src="./assets/images/model-3.png" alt="">
+                                </a>
+                            </div>
+                            <div class="model-item">
+                                <a href="">
+                                    <img src="./assets/images/model-4.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- /model carousel -->
+
+        <!-- location cars -->
+        <section class="location-searches" style="background: url('./assets/images/banner-2.png');">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="location-search">
+                            <div class="title">
+                                <h3>Ahmedabad: 215 Cars found</h3>
+                                <ul class="breadcrumbs">
+                                    <li>Home</li>
+                                    <li>></li>
+                                    <li>Cars</li>
+                                    <li>></li>
+                                    <li>New Cars</li>
+                                </ul>
+                            </div>
+                            <div class="search-fields">
+                                <select name="" id="" class="form-select">
+                                    <option value="">Location</option>
+                                    <option value="">Dhaka</option>
+                                    <option value="">Rajshahi</option>
+                                    <option value="">Khulna</option>
+                                    <option value="">Barishal</option>
+                                    <option value="">Sylhet</option>
+                                </select>
+                                <button class="btn btn-search btn-secondary">All Cars</button>
+                                <button class="btn btn-search btn-light">New Cars</button>
+                                <button class="btn btn-search btn-light">Used Cars</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- / location cars -->
+
+        <section class="amad-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <!-- filters -->
+                        <div class="filters">
+                            <div class="filters-header">
+                                <h3>Filters</h3>
+                            </div>
+                            <div class="filters-body">
+                                <div class="accordion" id="filterAccordion">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#filterCondition">
+                                                Condition
+                                            </button>
+                                        </h2>
+                                        <div id="filterCondition" class="accordion-collapse collapse">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li>
+                                                        <label>
+                                                            <input type="checkbox" name="" id="">
+                                                            <span>item 1</span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label>
+                                                            <input type="checkbox" name="" id="">
+                                                            <span>item 1</span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label>
+                                                            <input type="checkbox" name="" id="">
+                                                            <span>item 1</span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label>
+                                                            <input type="checkbox" name="" id="">
+                                                            <span>item 1</span>
+                                                        </label>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#filterBody">
+                                                Body
+                                            </button>
+                                        </h2>
+                                        <div id="filterBody" class="accordion-collapse collapse">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li>
+                                                        <label>
+                                                            <input type="checkbox" name="" id="">
+                                                            <span>item 1</span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label>
+                                                            <input type="checkbox" name="" id="">
+                                                            <span>item 1</span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label>
+                                                            <input type="checkbox" name="" id="">
+                                                            <span>item 1</span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label>
+                                                            <input type="checkbox" name="" id="">
+                                                            <span>item 1</span>
+                                                        </label>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#filterBrand">
+                                                Brand
+                                            </button>
+                                        </h2>
+                                        <div id="filterBrand" class="accordion-collapse collapse">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li>
+                                                        <label>
+                                                            <input type="checkbox" name="" id="">
+                                                            <span>item 1</span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label>
+                                                            <input type="checkbox" name="" id="">
+                                                            <span>item 1</span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label>
+                                                            <input type="checkbox" name="" id="">
+                                                            <span>item 1</span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label>
+                                                            <input type="checkbox" name="" id="">
+                                                            <span>item 1</span>
+                                                        </label>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#filterModel">
+                                                Model
+                                            </button>
+                                        </h2>
+                                        <div id="filterModel" class="accordion-collapse collapse">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li>
+                                                        <label>
+                                                            <input type="checkbox" name="" id="">
+                                                            <span>item 1</span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label>
+                                                            <input type="checkbox" name="" id="">
+                                                            <span>item 1</span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label>
+                                                            <input type="checkbox" name="" id="">
+                                                            <span>item 1</span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label>
+                                                            <input type="checkbox" name="" id="">
+                                                            <span>item 1</span>
+                                                        </label>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#filterTransmission">
+                                                Transmission
+                                            </button>
+                                        </h2>
+                                        <div id="filterTransmission" class="accordion-collapse collapse">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li>
+                                                        <label>
+                                                            <input type="checkbox" name="" id="">
+                                                            <span>item 1</span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label>
+                                                            <input type="checkbox" name="" id="">
+                                                            <span>item 1</span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label>
+                                                            <input type="checkbox" name="" id="">
+                                                            <span>item 1</span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label>
+                                                            <input type="checkbox" name="" id="">
+                                                            <span>item 1</span>
+                                                        </label>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#filterYear">
+                                                Year
+                                            </button>
+                                        </h2>
+                                        <div id="filterYear" class="accordion-collapse collapse">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li>
+                                                        <label>
+                                                            <input type="checkbox" name="" id="">
+                                                            <span>item 1</span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label>
+                                                            <input type="checkbox" name="" id="">
+                                                            <span>item 1</span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label>
+                                                            <input type="checkbox" name="" id="">
+                                                            <span>item 1</span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label>
+                                                            <input type="checkbox" name="" id="">
+                                                            <span>item 1</span>
+                                                        </label>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#filterExColor">
+                                                Exterior Color
+                                            </button>
+                                        </h2>
+                                        <div id="filterExColor" class="accordion-collapse collapse">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li>
+                                                        <label>
+                                                            <input type="checkbox" name="" id="">
+                                                            <span>item 1</span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label>
+                                                            <input type="checkbox" name="" id="">
+                                                            <span>item 1</span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label>
+                                                            <input type="checkbox" name="" id="">
+                                                            <span>item 1</span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label>
+                                                            <input type="checkbox" name="" id="">
+                                                            <span>item 1</span>
+                                                        </label>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#filterInColor">
+                                                Interior Color
+                                            </button>
+                                        </h2>
+                                        <div id="filterInColor" class="accordion-collapse collapse">
+                                            <div class="accordion-body">
+                                                <ul>
+                                                    <li>
+                                                        <label>
+                                                            <input type="checkbox" name="" id="">
+                                                            <span>item 1</span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label>
+                                                            <input type="checkbox" name="" id="">
+                                                            <span>item 1</span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label>
+                                                            <input type="checkbox" name="" id="">
+                                                            <span>item 1</span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label>
+                                                            <input type="checkbox" name="" id="">
+                                                            <span>item 1</span>
+                                                        </label>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>                                    
+                                </div>
+                                <div class="filter-price">
+                                    <h4>Select Price</h4>
+
+                                </div>
+                            </div>
+                            <div class="filters-footer">
+                                <button class="btn btn-primary w-100">Reset All</button>
+                            </div>
+                        </div>
+                        <!-- /filters -->
+                        <div class="site-ads">
+                            <img src="./assets/images/ads-img-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <!-- search -->
+                        <section class="search-box search-filter">
+                            <form action="">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <input type="text" name="" class="form-control" placeholder="Search keyword">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-group">
+                                            <select name="" class="form-control">
+                                                <option value="">All</option>
+                                                <option value="">Others</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="form-submit-btn">
+                                            <button type="submit" class="btn btn-primary">
+                                                <i class="bx bx-search-alt"></i>
+                                                Search
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </section>
+                        <!-- /search -->
+                        
+                        <!-- amads carousel -->
+                        <div class="amad-carousels">
+                            <div class="amad-carousel-items owl-carousel" id="amad-carousel">
+                                <div class="amad-carousel-item">
+                                    <div class="amad-carousel-img">
+                                        <img src="./assets/images/banner-3.png" alt="">
+                                    </div>
+                                    <div class="amad-carousel-content">
+                                        <h3>Baytul Maal Auto</h3>
+                                        <h3>Toyota Harrier Sunroof Leather Seat 2014</h3>
+                                        <h3>৳123587990</h3>
+                                    </div>
+                                </div>
+                                <div class="amad-carousel-item">
+                                    <div class="amad-carousel-img">
+                                        <img src="./assets/images/banner-3.png" alt="">
+                                    </div>
+                                    <div class="amad-carousel-content">
+                                        <h3>Baytul Maal Auto</h3>
+                                        <h3>Toyota Harrier Sunroof Leather Seat 2014</h3>
+                                        <h3>৳123587990</h3>
+                                    </div>
+                                </div>
+                                <div class="amad-carousel-item">
+                                    <div class="amad-carousel-img">
+                                        <img src="./assets/images/banner-3.png" alt="">
+                                    </div>
+                                    <div class="amad-carousel-content">
+                                        <h3>Baytul Maal Auto</h3>
+                                        <h3>Toyota Harrier Sunroof Leather Seat 2014</h3>
+                                        <h3>৳123587990</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="amad-list">
+                            <div class="amad-item">
+                                <div class="amad-thumbnail">
+                                    <a href="">
+                                        <img src="./assets/images/car-1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="amad-content">
+                                    <div class="amad-header">
+                                        <a href="#">
+                                            <h2>Mercedes-Benz M-Class</h2>
+                                            <span class="condition condition-warning">Used</span>
+                                        </a>
+                                        <ul>
+                                            <li>
+                                                <span class="icon">
+                                                    <i class="bx bx-tachometer"></i>
+                                                </span>
+                                                8500
+                                            </li>
+                                            <li>
+                                                <span class="icon">
+                                                    <i class="bx bx-cog"></i>
+                                                </span>
+                                                Automatic
+                                            </li>
+                                            <li>
+                                                <span class="icon">
+                                                    <i class="bx bx-calendar" ></i>
+                                                </span>
+                                                2015
+                                            </li>
+                                        </ul>
+                                        <div class="promotion-badge">
+                                            <img src="./assets/images/badge.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="amad-body">
+                                        <div class="features">
+                                            <ul>
+                                                <li>Free Cancellation</li>
+                                                <li>Free Cancellation</li>
+                                                <li>Free Cancellation</li>
+                                                <li>Free Cancellation</li>
+                                            </ul>
+                                        </div>
+                                        <div class="pricing">
+                                            <h3>৳123587990</h3>
+                                        </div>
+                                    </div>
+                                    <div class="amad-footer">
+                                        <div class="amad-footer-items">
+                                            <div class="amad-store">
+                                                <div class="store-icon">
+                                                    <img src="./assets/images/member-1.png" alt="">
+                                                </div>
+                                                <div class="store-title">
+                                                    <a href="">
+                                                        <p>Car Corner</p>
+                                                    </a>
+                                                    <small>Member since 2021</small>
+                                                </div>
+                                            </div>
+                                            <div class="amad-call">
+                                                <div class="call-icon">
+                                                    <i class="bx bx-phone"></i>
+                                                </div>
+                                                <div class="call-content">
+                                                    <small>Call now</small>
+                                                    <p>0179865235</p>
+                                                </div>
+                                            </div>
+                                            <div class="amad-chat">
+                                                <div class="chat-icon">
+                                                    <i class='bx bx-message-rounded-dots' ></i>
+                                                </div>
+                                                <div class="chat-content">
+                                                    <h4>Chat</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- / amad item -->                           
+                            <div class="amad-item">
+                                <div class="amad-thumbnail">
+                                    <a href="">
+                                        <img src="./assets/images/car-1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="amad-content">
+                                    <div class="amad-header">
+                                        <a href="#">
+                                            <h2>Mercedes-Benz M-Class</h2>
+                                            <span class="condition condition-warning">Used</span>
+                                        </a>
+                                        <ul>
+                                            <li>
+                                                <span class="icon">
+                                                    <i class="bx bx-tachometer"></i>
+                                                </span>
+                                                8500
+                                            </li>
+                                            <li>
+                                                <span class="icon">
+                                                    <i class="bx bx-cog"></i>
+                                                </span>
+                                                Automatic
+                                            </li>
+                                            <li>
+                                                <span class="icon">
+                                                    <i class="bx bx-calendar" ></i>
+                                                </span>
+                                                2015
+                                            </li>
+                                        </ul>
+                                        <div class="promotion-badge">
+                                            <img src="./assets/images/badge.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="amad-body">
+                                        <div class="features">
+                                            <ul>
+                                                <li>Free Cancellation</li>
+                                                <li>Free Cancellation</li>
+                                                <li>Free Cancellation</li>
+                                                <li>Free Cancellation</li>
+                                            </ul>
+                                        </div>
+                                        <div class="pricing">
+                                            <h3>৳123587990</h3>
+                                        </div>
+                                    </div>
+                                    <div class="amad-footer">
+                                        <div class="amad-footer-items">
+                                            <div class="amad-store">
+                                                <div class="store-icon">
+                                                    <img src="./assets/images/member-1.png" alt="">
+                                                </div>
+                                                <div class="store-title">
+                                                    <a href="">
+                                                        <p>Car Corner</p>
+                                                    </a>
+                                                    <small>Member since 2021</small>
+                                                </div>
+                                            </div>
+                                            <div class="amad-call">
+                                                <div class="call-icon">
+                                                    <i class="bx bx-phone"></i>
+                                                </div>
+                                                <div class="call-content">
+                                                    <small>Call now</small>
+                                                    <p>0179865235</p>
+                                                </div>
+                                            </div>
+                                            <div class="amad-chat">
+                                                <div class="chat-icon">
+                                                    <i class='bx bx-message-rounded-dots' ></i>
+                                                </div>
+                                                <div class="chat-content">
+                                                    <h4>Chat</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- / amad item -->                           
+                            <div class="amad-item">
+                                <div class="amad-thumbnail">
+                                    <a href="">
+                                        <img src="./assets/images/car-1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="amad-content">
+                                    <div class="amad-header">
+                                        <a href="#">
+                                            <h2>Mercedes-Benz M-Class</h2>
+                                            <span class="condition condition-warning">Used</span>
+                                        </a>
+                                        <ul>
+                                            <li>
+                                                <span class="icon">
+                                                    <i class="bx bx-tachometer"></i>
+                                                </span>
+                                                8500
+                                            </li>
+                                            <li>
+                                                <span class="icon">
+                                                    <i class="bx bx-cog"></i>
+                                                </span>
+                                                Automatic
+                                            </li>
+                                            <li>
+                                                <span class="icon">
+                                                    <i class="bx bx-calendar" ></i>
+                                                </span>
+                                                2015
+                                            </li>
+                                        </ul>
+                                        <div class="promotion-badge">
+                                            <img src="./assets/images/badge.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="amad-body">
+                                        <div class="features">
+                                            <ul>
+                                                <li>Free Cancellation</li>
+                                                <li>Free Cancellation</li>
+                                                <li>Free Cancellation</li>
+                                                <li>Free Cancellation</li>
+                                            </ul>
+                                        </div>
+                                        <div class="pricing">
+                                            <h3>৳123587990</h3>
+                                        </div>
+                                    </div>
+                                    <div class="amad-footer">
+                                        <div class="amad-footer-items">
+                                            <div class="amad-store">
+                                                <div class="store-icon">
+                                                    <img src="./assets/images/member-1.png" alt="">
+                                                </div>
+                                                <div class="store-title">
+                                                    <a href="">
+                                                        <p>Car Corner</p>
+                                                    </a>
+                                                    <small>Member since 2021</small>
+                                                </div>
+                                            </div>
+                                            <div class="amad-call">
+                                                <div class="call-icon">
+                                                    <i class="bx bx-phone"></i>
+                                                </div>
+                                                <div class="call-content">
+                                                    <small>Call now</small>
+                                                    <p>0179865235</p>
+                                                </div>
+                                            </div>
+                                            <div class="amad-chat">
+                                                <div class="chat-icon">
+                                                    <i class='bx bx-message-rounded-dots' ></i>
+                                                </div>
+                                                <div class="chat-content">
+                                                    <h4>Chat</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- / amad item -->                           
+                            <div class="amad-item">
+                                <div class="amad-thumbnail">
+                                    <a href="">
+                                        <img src="./assets/images/car-1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="amad-content">
+                                    <div class="amad-header">
+                                        <a href="#">
+                                            <h2>Mercedes-Benz M-Class</h2>
+                                            <span class="condition condition-warning">Used</span>
+                                        </a>
+                                        <ul>
+                                            <li>
+                                                <span class="icon">
+                                                    <i class="bx bx-tachometer"></i>
+                                                </span>
+                                                8500
+                                            </li>
+                                            <li>
+                                                <span class="icon">
+                                                    <i class="bx bx-cog"></i>
+                                                </span>
+                                                Automatic
+                                            </li>
+                                            <li>
+                                                <span class="icon">
+                                                    <i class="bx bx-calendar" ></i>
+                                                </span>
+                                                2015
+                                            </li>
+                                        </ul>
+                                        <div class="promotion-badge">
+                                            <img src="./assets/images/badge.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="amad-body">
+                                        <div class="features">
+                                            <ul>
+                                                <li>Free Cancellation</li>
+                                                <li>Free Cancellation</li>
+                                                <li>Free Cancellation</li>
+                                                <li>Free Cancellation</li>
+                                            </ul>
+                                        </div>
+                                        <div class="pricing">
+                                            <h3>৳123587990</h3>
+                                        </div>
+                                    </div>
+                                    <div class="amad-footer">
+                                        <div class="amad-footer-items">
+                                            <div class="amad-store">
+                                                <div class="store-icon">
+                                                    <img src="./assets/images/member-1.png" alt="">
+                                                </div>
+                                                <div class="store-title">
+                                                    <a href="">
+                                                        <p>Car Corner</p>
+                                                    </a>
+                                                    <small>Member since 2021</small>
+                                                </div>
+                                            </div>
+                                            <div class="amad-call">
+                                                <div class="call-icon">
+                                                    <i class="bx bx-phone"></i>
+                                                </div>
+                                                <div class="call-content">
+                                                    <small>Call now</small>
+                                                    <p>0179865235</p>
+                                                </div>
+                                            </div>
+                                            <div class="amad-chat">
+                                                <div class="chat-icon">
+                                                    <i class='bx bx-message-rounded-dots' ></i>
+                                                </div>
+                                                <div class="chat-content">
+                                                    <h4>Chat</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- / amad item -->                           
+                            <div class="amad-item">
+                                <div class="amad-thumbnail">
+                                    <a href="">
+                                        <img src="./assets/images/car-1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="amad-content">
+                                    <div class="amad-header">
+                                        <a href="#">
+                                            <h2>Mercedes-Benz M-Class</h2>
+                                            <span class="condition condition-warning">Used</span>
+                                        </a>
+                                        <ul>
+                                            <li>
+                                                <span class="icon">
+                                                    <i class="bx bx-tachometer"></i>
+                                                </span>
+                                                8500
+                                            </li>
+                                            <li>
+                                                <span class="icon">
+                                                    <i class="bx bx-cog"></i>
+                                                </span>
+                                                Automatic
+                                            </li>
+                                            <li>
+                                                <span class="icon">
+                                                    <i class="bx bx-calendar" ></i>
+                                                </span>
+                                                2015
+                                            </li>
+                                        </ul>
+                                        <div class="promotion-badge">
+                                            <img src="./assets/images/badge.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="amad-body">
+                                        <div class="features">
+                                            <ul>
+                                                <li>Free Cancellation</li>
+                                                <li>Free Cancellation</li>
+                                                <li>Free Cancellation</li>
+                                                <li>Free Cancellation</li>
+                                            </ul>
+                                        </div>
+                                        <div class="pricing">
+                                            <h3>৳123587990</h3>
+                                        </div>
+                                    </div>
+                                    <div class="amad-footer">
+                                        <div class="amad-footer-items">
+                                            <div class="amad-store">
+                                                <div class="store-icon">
+                                                    <img src="./assets/images/member-1.png" alt="">
+                                                </div>
+                                                <div class="store-title">
+                                                    <a href="">
+                                                        <p>Car Corner</p>
+                                                    </a>
+                                                    <small>Member since 2021</small>
+                                                </div>
+                                            </div>
+                                            <div class="amad-call">
+                                                <div class="call-icon">
+                                                    <i class="bx bx-phone"></i>
+                                                </div>
+                                                <div class="call-content">
+                                                    <small>Call now</small>
+                                                    <p>0179865235</p>
+                                                </div>
+                                            </div>
+                                            <div class="amad-chat">
+                                                <div class="chat-icon">
+                                                    <i class='bx bx-message-rounded-dots' ></i>
+                                                </div>
+                                                <div class="chat-content">
+                                                    <h4>Chat</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- / amad item -->                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- pagination -->
+
+    </main> <!-- /main -->
+
+    <!-- newsletter -->
+    <section class="newsletter-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="newsletter">
+                        <img src="./assets/images/newsletter-bg.png" alt="">
+                        <div class="newsletter-content">
+                            <h4>Newsletter</h4>
+                            <h4 class="text-uppercase">Get notified of any updates!</h4>
+                            <form action="">
+                                <div class="newsletter-form">
+                                    <input type="email" name="" class="form-control" placeholder="Your email address">
+                                    <button type="submit" class="btn btn-warning">
+                                        <i class='bx bxs-paper-plane'></i>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- newsletter -->
+
+    <!-- contact-->
+    <section class="contact-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="contact-content">
+                        <h1>Connect with customers <br>Offer a superb customer experience</h1>
+                        <div class="contact-btn">
+                            <a href="#" class="btn btn-warning">Visit Our Support Center</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /contact-->
+    
+    <!-- footer -->
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="footer-item">
+                            <div class="footer-item-title">
+                                <h5>Showroom</h5>
+                            </div>
+                            <div class="footer-item-content">
+                                <ul class="content-only">
+                                    <li>KlbTheme, 789 Main rd, Anytown, CA 12345 USA</li>
+                                    <li>+1 800 789 0000</li>
+                                    <li>Harrier@klbtheme.com</li>
+                                    <li>Mon – Fri : 09am to 06pm</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-item">
+                            <div class="footer-item-title">
+                                <h5>Quick Links</h5>
+                            </div>
+                            <div class="footer-item-content">
+                                <ul>
+                                    <li><a href="">Blog</a></li>
+                                    <li><a href="">FAQs</a></li>
+                                    <li><a href="">Payment</a></li>
+                                    <li><a href="">Shipment</a></li>
+                                    <li><a href="">Where is my order</a></li>
+                                    <li><a href="">Return Policy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-item">
+                            <div class="footer-item-title">
+                                <h5>Style Advisor</h5>
+                            </div>
+                            <div class="footer-item-content">
+                                <ul>
+                                    <li><a href="">My Account</a></li>
+                                    <li><a href="">Information</a></li>
+                                    <li><a href="">Address</a></li>
+                                    <li><a href="">Discount</a></li>
+                                    <li><a href="">Order History</a></li>
+                                    <li><a href="">Additional Information</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-item">
+                            <div class="footer-item-title">
+                                <h5>Information</h5>
+                            </div>
+                            <div class="footer-item-content">
+                                <ul>
+                                    <li><a href="">Discount</a></li>
+                                    <li><a href="">Order History</a></li>
+                                    <li><a href="">Additional Information</a></li>
+                                    <li><a href="">My Account</a></li>
+                                    <li><a href="">Information</a></li>
+                                    <li><a href="">Address</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright"></div>
+    </footer> <!-- /footer -->
+
+    <!-- vendors js -->
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+
+    <!-- custom scripts -->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
