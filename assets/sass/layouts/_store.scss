@@ -1,0 +1,54 @@
+.store-cover-photo {
+    img {
+        width: 100%;
+    }
+}
+
+.store-content {
+    padding: 30px 0px;
+    .store-details {
+        background: $color-white;
+        margin-top: -150px;
+        border-radius: 5px;
+
+        .store-header {
+            margin-bottom: 20px;
+            border-bottom: 1px solid $color-gray-4;
+            padding: 30px 15px 20px;
+            text-align: center;
+
+            .store-img {
+                margin-bottom: 15px;
+            }
+            
+        }
+
+        .store-details-item {
+            padding: 20px 15px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            column-gap: 10px;
+            border-bottom: 1px solid $color-gray-4;
+
+            .store-details-icon i.bx {
+                color: $color-primary;
+                font-size: 1.5rem;
+            }
+
+
+            .store-details-content {
+                text-align: justify;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
