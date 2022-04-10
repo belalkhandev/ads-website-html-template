@@ -156,3 +156,32 @@
         padding: 0px 20px;
     }
 }
+
+.action-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    div {
+        display: flex;
+        align-items: center;
+        column-gap: 15px;
+        .btn {
+            border-radius: 5px;
+            border: none;
+            padding: 12px 24px;
+            font-size: 1.325rem;
+            font-weight: 500;
+
+            &.btn-secondary {
+                background-color: $color-secondary;
+            }
+
+
+            &.btn-light {
+                color: #5B5B5B;
+            }
+        }
+    }
+
+}
