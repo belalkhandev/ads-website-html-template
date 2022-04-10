@@ -11,6 +11,17 @@
                 dots: false
             });
         }
+        if ($('#amad-carousel').length) {
+            $('#amad-carousel').owlCarousel({
+                items: 1,
+                loop: true,
+                dots: false,
+                nav: true,
+                loop: true,
+                autoplay: true,
+                navText: ["<i class='bx bx-chevron-left '></i>", "<i class='bx bx-chevron-right'></i>"]
+            });
+        }
     });
 
     //on windown load
