@@ -1,0 +1,57 @@
+
+.form-group {
+    .form-control {
+        font-family: $font_primary;
+        border-color: #CACCCF;
+
+        &:focus {
+            box-shadow: none;
+            border-color: $color-primary;
+        }
+    }
+}
+
+.form-check-input:checked {
+    background-color: $color-primary;
+    border-color: $color-primary;
+}
+
+.form-group {
+    margin-bottom: 20px;
+
+    label {
+        font-size: 1.125rem;
+        margin-bottom: 10px;
+        font-weight: 300;
+        color: $color-gray-label;
+    }
+
+    .form-control, .form-select {
+        font-weight: 400;
+        height: 45px;
+
+        &:focus {
+            box-shadow: none;
+        }
+    }
+
+    .text-danger {
+        font-weight: 300;
+        font-size: 0.875rem;
+    }
+
+    .form-check {
+        .form-check-input {
+
+            &:checked {
+                background-color: $color-primary;
+                border-color: $color-primary;
+            }
+        }
+
+        .form-check-label {
+            font-weight: 400;
+            font-size: 1rem;
+        }
+    }
+}

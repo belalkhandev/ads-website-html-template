@@ -32,22 +32,6 @@ img {
   max-width: 100%;
 }
 
-.btn.btn-primary {
-  background-color: #22B573;
-  border-color: #22B573;
-}
-
-.form-group .form-control {
-  font-family: "Inter", sans-serif;
-  border-color: #CACCCF;
-}
-
-.form-group .form-control:focus {
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  border-color: #22B573;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -152,6 +136,74 @@ h6 {
 
 .section-title-area .section-title .action ul li:hover {
   background-color: #22B573;
+}
+
+.btn.btn-xl {
+  padding: 15px 30px;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.btn.btn-primary {
+  background-color: #22B573;
+  border-color: #22B573;
+}
+
+.btn.btn-primary:hover {
+  background-color: #8CC63F;
+  border-color: #8CC63F;
+}
+
+.form-group .form-control {
+  font-family: "Inter", sans-serif;
+  border-color: #CACCCF;
+}
+
+.form-group .form-control:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-color: #22B573;
+}
+
+.form-check-input:checked {
+  background-color: #22B573;
+  border-color: #22B573;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-size: 1.125rem;
+  margin-bottom: 10px;
+  font-weight: 300;
+  color: #707575;
+}
+
+.form-group .form-control, .form-group .form-select {
+  font-weight: 400;
+  height: 45px;
+}
+
+.form-group .form-control:focus, .form-group .form-select:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.form-group .text-danger {
+  font-weight: 300;
+  font-size: 0.875rem;
+}
+
+.form-group .form-check .form-check-input:checked {
+  background-color: #22B573;
+  border-color: #22B573;
+}
+
+.form-group .form-check .form-check-label {
+  font-weight: 400;
+  font-size: 1rem;
 }
 
 header {
@@ -1158,6 +1210,16 @@ main {
 
 .model-carousel .models .model-item:hover {
   background-color: #FFFFFF;
+}
+
+.post-section {
+  padding: 40px 0px;
+}
+
+.add-post {
+  background-color: #FFFFFF;
+  padding: 50px 80px;
+  border-radius: 5px;
 }
 
 .contact-area {

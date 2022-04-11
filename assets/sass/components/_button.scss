@@ -1,0 +1,18 @@
+.btn {
+
+    &.btn-xl {
+        padding: 15px 30px;
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+
+    &.btn-primary {
+        background-color: $color-primary;
+        border-color: $color-primary;
+
+        &:hover {
+            background-color: $color-secondary;
+            border-color: $color-secondary;
+        }
+    }
+}
