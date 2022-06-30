@@ -70,7 +70,7 @@
                 .promotion-badge {
                     position: absolute;
                     top: 5px;
-                    right: 10px;
+                    right: 30px;
                 }
             }
             .amad-body {
@@ -166,6 +166,7 @@
                         align-items: center;
                         justify-content: flex-start;
                         column-gap: 10px;
+                        padding-right: 30px;
 
                         .chat-icon {
                             background-color: $color-secondary;

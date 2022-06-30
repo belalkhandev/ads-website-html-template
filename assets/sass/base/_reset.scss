@@ -28,3 +28,14 @@ ul, ol {
 img {
     max-width: 100%;
 }
+
+.btn {
+    &.btn-success {
+        background-color: $color-primary;
+        border: 1px solid $color-primary;
+
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+}
