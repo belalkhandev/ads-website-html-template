@@ -3,6 +3,9 @@
 
     //on document ready
     jQuery(document).ready(function() {
+        var messageArea = $('.chat-messages');
+        messageArea.scrollTop = messageArea.scrollHeight;
+
         //active owl-carousel for models
         if ($('#model-carousel').length) {
             $('#model-carousel').owlCarousel({
