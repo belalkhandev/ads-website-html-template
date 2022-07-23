@@ -41,13 +41,21 @@
                             <img src="./assets/images/lang-bn.png" alt="">
                             <span>ENG</span>
                         </div>
-                        <div class="user">
-                            <ul>
-                                <li>
+                        <div class="user user-dropdown">
+                            <div class="dropdown">
+                                <a class="btn btn-light dropdown-toggle" href="#" role="button" id="userDropdownLink" data-bs-toggle="dropdown" aria-expanded="false">
                                     <img src="./assets/images/user.png" alt="">
-                                </li>
-                                <li><a href="">Login</a></li>
-                            </ul>
+                                    <span>Car corner</span>
+                                </a>
+                              
+                                <ul class="dropdown-menu" aria-labelledby="userDropdownLink">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Sign out</a></li>
+                                </ul>
+                              </div>
                         </div>
                         <button class="btn btn-light">Post your ad</button>
                     </div>
